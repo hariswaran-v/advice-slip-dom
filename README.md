@@ -1,90 +1,54 @@
-# Your App Title
+# 🧠 Boomers Advices
 
-Write app description in detail!
-
-#### Screenshots
-
-[Yet to be uploaded]
-
-## 🎉 Check it yourself!
-
-| 🚧 Build Status  | [![Netlify Status](https://img.shields.io/github/actions/workflow/status/anburocky3/festival-greeting-app/deploy.yml?logo=github&label=Live)](https://app.netlify.com/sites/cyberdude-internship/deploys) |
-| ---------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ✅ Live Website: | https://anburocky3.github.io/vite-html-tailwind                                                                                                                                                           |
+A simple and clean advice generator built using **HTML**, **Tailwind CSS**, and the **Advice Slip API**.  
+Every time you click the **"Refresh!"** button, you'll get a new piece of wisdom — straight from the boomers!
 
 ---
 
-### GitHub Template
+## 🔗 Live Demo
 
-[Create a repo from this template on GitHub](https://github.com/anburocky3/vite-html-tailwind/generate).
+> [View on GitHub Pages](https://your-hariswaran-v.github.io/advice-slip-dom/)  
+> _Replace the URL above with your actual deployed link_
 
-### Clone to local
+---
 
-If you prefer to do it manually with the cleaner git history
+## 🚀 Features
 
-```bash
-npx degit anburocky3/vite-html-tailwind my-app
-cd my-app
-npm install # Install dependencies
-```
+- 💡 Fetches random advice using the [Advice Slip API](https://api.adviceslip.com/)
+- 🎨 Beautiful responsive design using Tailwind CSS
+- 🔁 Refresh advice with a single click
+- ⚙️ Built with Vite and deployed using GitHub Actions
 
-## Checklist
+---
 
-When you use this template, try follow the checklist to update your info properly
+## 🛠️ Technologies Used
 
-- [ ] Change the author name in `LICENSE`
-- [ ] Change the title and unnecessary info in `index.html`
-- [ ] According to your usage, modify READMEs
+- HTML5
+- Tailwind CSS
+- JavaScript (ES Modules + async/await)
+- [Advice Slip API](https://api.adviceslip.com/)
+- GitHub Pages (CI/CD via GitHub Actions)
+- Vite (for dev server and build)
 
-And, enjoy :)
+---
 
-## Usage
+## 📦 Installation (Dev Mode)
 
-### Development
+1. Clone this repo  
+   `git clone https://github.com/hariswaran-v/advice-slip-dom.git`
 
-```bash
-npm run dev
-```
+2. Install dependencies  
+   `npm install`
 
-Just run and visit http://localhost:5173
+3. Start development server  
+   `npm run dev`
 
+---
 
-### Build
+## 🚀 Build & Deploy
 
-To build the App, run
+To build the app:
 
 ```bash
 npm run build
 ```
-
-And you will see the generated file in `dist` that ready to be served.
-
-### Preview
-
-To preview the build files, run
-
-```bash
-npm run preview
-```
-
-### Deployment
-
-- Go to repository `Setting`.
-
-<a href="https://ibb.co/kHZLHrC"><img src="https://i.ibb.co/r79B7Lr/Screenshot-2024-01-14-235556.png" alt="Screenshot-2024-01-14-235556" border="0"></a>
-
-- Select `Pages`.
-
-<a href="https://ibb.co/GpjWqWt"><img src="https://i.ibb.co/g9CSxSP/Screenshot-2024-01-14-235801.png" alt="Screenshot-2024-01-14-235801" border="0"></a>
-
-- Select `GitHub Actions` under `Build and Deployment`.
-
-<a href="https://ibb.co/jJc7t1G"><img src="https://i.ibb.co/phtCq9Z/Screenshot-2024-01-14-235908.png" alt="Screenshot-2024-01-14-235908" border="0"></a>
-
-#### LICENSE: [MIT](./LICENSE)
-
-#### Authors:
-
-- [Anbuselvan Rocky](https://fb.me/anburocky3)
-
-[![Deploy to GH Pages](https://github.com/anburocky3/vite-html-tailwind/actions/workflows/deploy.yml/badge.svg)](https://github.com/anburocky3/vite-html-tailwind/actions/workflows/deploy.yml)
