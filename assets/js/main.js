@@ -21,5 +21,6 @@ async function getAdvicesData() {
 const adviceData = await getAdvicesData();
 blockQuoteEl.innerText = adviceData.slip.advice;
 // console.log(adviceData);
+
 // Display the button after refresh the page
 refreshBtnEl.style.display = "block";
